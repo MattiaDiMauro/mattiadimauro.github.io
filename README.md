@@ -189,4 +189,4 @@ Dopo aver creato il CV online:
 
 ---
 
-**Made with ❤️ | HTML/CSS | 2026**
+**Made with | HTML/CSS | 2026**
