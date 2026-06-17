@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mattia Di Mauro - MSc Aeronautical Engineering, UAV Flight Control & Embedded Systems">
+    <title>Mattia Di Mauro - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="cv-header">
+            <h1 class="name">Mattia Di Mauro</h1>
+            <p class="subtitle">UAV Flight Dynamics & Control | Embedded Software for UAVs</p>
+            
+            <div class="contact-info">
+                <span class="contact-item">
+                    <strong>Phone:</strong> +39 3668341937
+                </span>
+                <span class="contact-item">
+                    <strong>Email:</strong> <a href="mailto:mattiadimauro1210@gmail.com">mattiadimauro1210@gmail.com</a>
+                </span>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mattiadimauro" target="_blank">LinkedIn</a>
+                <span class="separator">•</span>
+                <a href="https://github.com/MattiaDiMauro" target="_blank">GitHub</a>
+            </div>
+        </header>
+
+        <!-- Expertise -->
+        <section class="cv-section">
+            <h2 class="section-title">Expertise</h2>
+            <p class="expertise-intro">
+                MSc candidate in Aeronautical Engineering at Politecnico di Milano, thesis with Virginia Tech (ACSL) on adaptive control of unconventional VTOL fixed-wing UAV with tiltable propellers.
+            </p>
+            <ul class="expertise-list">
+                <li>
+                    <strong>Control & Estimation:</strong> MRAC, PBMRAC, Funnel-based laws, PID, KF, MEKF, NL dynamics modeling, Control Allocation, Grey-box ID, Black-box ID.
+                </li>
+                <li>
+                    <strong>Autonomy:</strong> RRT*, Minimum-snap trajectory optimization, Optical flow-based collision avoidance.
+                </li>
+                <li>
+                    <strong>Embedded & Flight Stack:</strong> C-firmware for STM32 and PIC18 (GPIO, PWM, ADC/DAC, SPI, I²C, USART, timers, watchdog). Validation HIL with ROS/PX4 & SIL with PyChrono.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section class="cv-section">
+            <h2 class="section-title">Education</h2>
+            
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Politecnico di Milano / Virginia Tech</h3>
+                    <span class="date">May 2026 — Mar 2027</span>
+                </div>
+                <p class="degree"><strong>MSc Thesis:</strong> <em>Adaptive Control of VTOL Fixed-Wing UAVs with Tiltable Propellers</em></p>
+                <p class="advisor"><em>Advisors: Prof. Andrea L'Afflitto (VT) & Prof. Francesco Braghin (PoliMi)</em></p>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Politecnico di Milano (PoliMi), Italy</h3>
+                    <span class="date">Sept 2024 — Mar 2027</span>
+                </div>
+                <p class="degree"><strong>MSc in Aeronautical Engineering</strong></p>
+                <p class="courses"><em>Relevant courses: Embedded systems, 8-bit Microcontrollers (PIC18F45K22), Sensor systems (STM32F4), Aerospace control systems, Digital control technologies, Adaptive and autonomous aerospace systems, Aeroelasticity, Estimation and learning, Avionics systems</em></p>
+            </div>
+
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Politecnico di Milano (PoliMi), Italy</h3>
+                    <span class="date">Sept 2021 — Sept 2024</span>
+                </div>
+                <p class="degree"><strong>BSc in Aerospace Engineering</strong></p>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="cv-section">
+            <h2 class="section-title">Experience</h2>
+            <p>
+                During university, I worked as a trade fair steward, STEM tutor, and toolmaker, developing communication skills, English-Italian mediation, and the ability to convey technical concepts to diverse audiences.
+            </p>
+        </section>
+
+        <!-- Main Projects & Labs -->
+        <section class="cv-section">
+            <h2 class="section-title">Main Projects & Labs</h2>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Thesis: Adaptive Control of Fixed-Wing UAV with Tiltable Propellers</h3>
+                    <span class="date">PoliMi / VT, 2027</span>
+                </div>
+                <p class="tech-stack">Python • PyChrono • SolidWorks • Control theory • SIL simulation • JSBSim • Git</p>
+                <ul class="project-bullets">
+                    <li>Modeled full nonlinear 6-DOF dynamics of fixed-wing tricopter with tiltable propellers</li>
+                    <li>Designed MRAC with genetic algorithm-based gain tuning and mixer matrix optimization</li>
+                    <li>Validation robustness through high-fidelity PyChrono simulations with JSBSim aerodynamics tool</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Model identification and state estimation for a multirotor UAV</h3>
+                    <span class="date">ACSL PoliMi, 2025</span>
+                </div>
+                <p class="tech-stack">MATLAB</p>
+                <ul class="project-bullets">
+                    <li>System identification of closed-loop longitudinal dynamics for a 2DoF quadrotor using experimental flight data and state-space modeling</li>
+                    <li>Kalman filter design (MEKF) for pitch estimation from IMU data</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Modeling, Identification and Control of a 2-DoF Quadrotor</h3>
+                    <span class="date">ACSL PoliMi, 2025</span>
+                </div>
+                <p class="tech-stack">MATLAB • ROS • PX4 • QGroundControl • HIL • Teamwork</p>
+                <ul class="project-bullets">
+                    <li>Robust digital control and dynamic model identification of the ANT-X 2DoF quadrotor, including 1DoF attitude model calibration and advanced time-domain parameter estimation</li>
+                    <li>Design and validation of discrete control architectures, featuring loop-shaped PID angular-rate control, cascade velocity–position regulation, and HIL-validation</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Predictor-based adaptive control for delivery UAV</h3>
+                    <span class="date">PoliMi, 2026</span>
+                </div>
+                <p class="tech-stack">MATLAB • Simulink • Control theory • Teamwork</p>
+                <ul class="project-bullets">
+                    <li>Adaptive control framework for a hexacopter UAV using PBMRAC to handle payload uncertainty, actuator degradation, and real-time disturbances</li>
+                    <li>Geometric attitude control on SO(3) and pseudo-inverse control allocation with full 6-DoF simulations</li>
+                    <li>RRT* trajectory planning for obstacle-aware autonomous delivery in urban environments</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Trajectory generation for quadrotors with obstacles</h3>
+                    <span class="date">ACSL PoliMi, 2025</span>
+                </div>
+                <p class="tech-stack">MATLAB • Teamwork</p>
+                <ul class="project-bullets">
+                    <li>Autonomous trajectory generation for quadrotor UAVs in obstacle environments, integrating RRT* path planning with minimum-snap trajectory optimization</li>
+                    <li>Collision-checking pipeline with automatic waypoint insertion and dynamic constraint validation</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>STM32 Projects</h3>
+                    <span class="date">PoliMi, 2025</span>
+                </div>
+                <p class="tech-stack">C • STM32F401RE • STM32CubeIDE • Teamwork</p>
+                <ul class="project-bullets">
+                    <li>Hands-on implementation of multiple sensor and actuator interfaces: GPIO, timers, interrupts, PWM, DMA, USART, SPI, I²C, ADC, microphone/speaker drivers, LCD, keyboard, MEMS sensors, IR modules</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>PIC 8-bit Projects</h3>
+                    <span class="date">PoliMi, 2026</span>
+                </div>
+                <p class="tech-stack">C • PIC18F45K22 • MikroC PRO • Labcenter Electronics Proteus • Teamwork</p>
+                <ul class="project-bullets">
+                    <li>Series of hands-on projects developed on Microchip PIC 8-bit microcontroller</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Optical flow–based collision avoidance for UAVs</h3>
+                    <span class="date">PoliMi, 2026</span>
+                </div>
+                <p class="tech-stack">Computer Vision • Python</p>
+                <ul class="project-bullets">
+                    <li>Presentation on optical flow–based collision avoidance for UAVs, reviewing key algorithms and demonstrating robust real-time 3D avoidance</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <h3>Robust control of lateral dynamics of a multirotor UAV</h3>
+                    <span class="date">PoliMi, 2025</span>
+                </div>
+                <p class="tech-stack">MATLAB • Simulink • Teamwork</p>
+                <ul class="project-bullets">
+                    <li>Design and validation of a robust dynamic inversion controller for the ANT-X quadrotor, including uncertainty modelling and Monte Carlo simulations</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section class="cv-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-table">
+                <div class="skill-row">
+                    <div class="skill-category">Programming</div>
+                    <div class="skill-content">C, Python, MATLAB/Simulink, MikroC PRO</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Embedded Systems</div>
+                    <div class="skill-content">STM32F401RE (STM32CubeIDE), PIC18F45K22</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Flight SW & Middleware</div>
+                    <div class="skill-content">ROS, PX4, QGroundControl</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Simulation & Tools</div>
+                    <div class="skill-content">SIL/HIL simulation, PyChrono, JSBSim, Git</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">CAD</div>
+                    <div class="skill-content">Autodesk Inventor, SolidWorks, Solid Edge</div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">Languages</div>
+                    <div class="skill-content">Italian (Native), English (Full professional proficiency)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="cv-footer">
+            <p>Last updated: June 2026 | <a href="https://github.com/MattiaDiMauro" target="_blank">View on GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>

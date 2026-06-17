@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Builds
+*.log
+node_modules/
+
+# Local development
+.env
+.env.local
+*.pem
+
+# OS X
+.AppleDouble
+.LSOverride
+._*
+
+# Backup files
+*~
+*.bak
+*.swp
